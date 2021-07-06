@@ -15,11 +15,23 @@
             <video muted id="local-video" autoplay></video>
             <video id="remote-video" autoplay></video>
             <div class="call-action-div">
-                <button onclick="muteVideo()">Mute Video</button>
+                <button onclick="muteVideo()">Video-off</button>
                 <button onclick="muteAudio()">Mute Audio</button>
+                <button onclick="exitCall()">Leave</button>
             </div>
         </div>
+        
+        
+        
         <script src="./sender.js"></script>
     </body>
+    <!-- Bootstrap and Font Awesome CSS Libraries -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- <script>
+    $("#exit-btn").prop("disabled", true);
+</script> 
+-->
 
 </html>

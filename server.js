@@ -110,3 +110,13 @@ function findUser(username) {
             return users[i]
     }
 }
+
+/*
+function leaveChannel() {
+    client.leave(function() {
+      console.log("client leaves channel");
+    }, function(err) {
+      console.log("client leave failed ", err); //error handling
+    });
+}
+*/
