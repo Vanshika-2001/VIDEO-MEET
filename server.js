@@ -4,12 +4,13 @@ const http = require("http")
 const path = require("path")
 const server = http.createServer((req, res) => {})
 
-if(process.env.PROD) {
+/* if(process.env.PROD) {
     app.use(express.static(path.join(_durname, './sender')));
     app.get('*',(req,res) => {
         res.sendFile(path.join(_dirname, './sender/sender.html'));
     });
-}
+} */
+
 const port = process.env.PORT || 3000;
 server.listen(port, () => 
     console.log('Server is Running on port ${port}'));
