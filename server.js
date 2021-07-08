@@ -1,11 +1,19 @@
+require("dotenv").config();
 const Socket = require("websocket").server
 const http = require("http")
-
+const path = require("path")
 const server = http.createServer((req, res) => {})
 
-server.listen(3000, () => {
-    console.log("Listening on port 3000...")
-})
+if(process.env.PROD) {
+    app.use(express.static(path.join(_durname, './receiver')));
+    app.get('*',(req,res) => {
+        res.sendFile(path.join(_dirname, './sender/sender.html'));
+    });
+}
+const port = process.env.PORT || 3000;
+server.listen(port, () => 
+    console.log('Server is Running on port ${port}'));
+
 
 const webSocket = new Socket({ httpServer: server })
 
