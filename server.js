@@ -5,7 +5,7 @@ const path = require("path")
 const server = http.createServer((req, res) => {})
 
 if(process.env.PROD) {
-    app.use(express.static(path.join(_durname, './receiver')));
+    app.use(express.static(path.join(_durname, './sender')));
     app.get('*',(req,res) => {
         res.sendFile(path.join(_dirname, './sender/sender.html'));
     });
