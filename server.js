@@ -4,8 +4,8 @@ const http = require("http")
 const path = require("path")
 const server = http.createServer((req, res) => {})
 
-/* if(process.env.PROD) {
-    app.use(express.static(path.join(_durname, './sender')));
+ /*if(process.env.PROD) {
+    app.use(express.static(path.join(_dirname, './sender')));
     app.get('*',(req,res) => {
         res.sendFile(path.join(_dirname, './sender/sender.html'));
     });
@@ -14,6 +14,10 @@ const server = http.createServer((req, res) => {})
 const port = process.env.PORT || 3000;
 server.listen(port, () => 
     console.log('Server is Running on port ${port}'));
+
+/* server.listen(process.env.PORT || 3000, function(){
+        console.log("Express server on port %d in %s mode", this.address().port, app.settings.env);
+    });*/
 
 
 const webSocket = new Socket({ httpServer: server })
@@ -118,4 +122,4 @@ function findUser(username) {
         if (users[i].username == username)
             return users[i]
     }
-}
+} 
