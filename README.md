@@ -1,7 +1,7 @@
 # ENGAGE1
 # Microsoft-Engage
 ## AIM: A fully functional prototype with at least one mandatory functionality - a minimum of two participants should be able connect with each other using the product to have a video conversation.
-Agile Methodology was used by creating backlogs every week .These backlogs included the features that were to be added.
+Agile Methodology (Scrum Methodology) was used by creating backlogs every week .These backlogs included the features that were to be added and every weekend was the deadline for the same.
 ## INTRODUCTION
 
  **1) PURPOSE**
