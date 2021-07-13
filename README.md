@@ -23,13 +23,15 @@ General function:Video conversation between 2 people
 - Node.Js (version 12.14.1) — Runtime Env for JS
 - Socket.IO (version 1.2.0) — for signaling in WebRTC
 - Express.Js: (version 4.17.1) — BackEnd Framework
-- Code Editor (Microsoft Visual Studio Code recommended)
+- Code Editor (Microsoft Visual Studio Code )
 - A Good Browser (Google Chrome Recommended)
 
 ### OPTIONAL FEATURES TO BE ADDED
 
-1) CHATTING 
-2) MUTE AUDIO
-3) PREVENTION OF ZOOM BOMBING (BETTER SECURITY)
-4) MUTE VIDEO
-5) LEAVE
+1) Mute Video
+2) Mute Audio
+3) Send Username Button
+4) Start Call Option
+5) Join Call Option
+6) MUTE VIDEO
+7) LEAVE
