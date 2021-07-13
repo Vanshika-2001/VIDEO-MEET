@@ -1,4 +1,4 @@
-const webSocket = new WebSocket("ws://192.168.29.14:3000")
+const webSocket = new WebSocket("ws://192.168.1.62:3000")
 
 webSocket.onmessage = (event) => {
     handleSignallingData(JSON.parse(event.data))
@@ -53,13 +53,8 @@ function startCall() {
                 {
                     "urls": ["stun:stun.l.google.com:19302", 
                     "stun:stun1.l.google.com:19302", 
-                    "stun:stun2.l.google.com:19302"
-                    ]
-                    
+                    "stun:stun2.l.google.com:19302"]
                 }
-                
-                
-                
             ]
         }
 

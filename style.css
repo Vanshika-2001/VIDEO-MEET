@@ -43,4 +43,13 @@ body {
 
 button {
     cursor: pointer;
-}
+   }
+
+   button:hover {
+    background-image:none;
+    background-color:#d81919
+   }
+
+   button:active{
+       background-color:rgb(206, 21, 21);
+   }
