@@ -9,6 +9,48 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
+
+#username-input {
+    position: absolute;
+    margin-right: 45%;
+    margin-left: 45%;
+    margin-top: 20%;
+    align-items: center;
+    
+}
+
+#send {
+    
+        position: absolute;
+        margin-right: 45%;
+        margin-left: 45%;
+        margin-top: 21%;
+        align-items: center;
+        
+    }
+
+    #startCall {
+    
+        position: absolute;
+        margin-right: 50%;
+        margin-left: 50%;
+        margin-top: 21%;
+        align-items: center;
+        
+    
+}
+
+#joinCall {
+    
+    position: absolute;
+    margin-right: 48%;
+    margin-left: 48%;
+    margin-top: 21%;
+    align-items: center;
+    
+
+}
+
 #video-call-div {
     position: absolute;
     top: 0;
@@ -47,9 +89,10 @@ button {
 
    button:hover {
     background-image:none;
-    background-color:#d81919
+    background-color:#c23bda
    }
 
    button:active{
        background-color:rgb(206, 21, 21);
    }
+  

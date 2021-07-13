@@ -3,12 +3,14 @@
     <head>
         <link rel="stylesheet" href="../style.css">
     </head>
+    <title>VIDEO-MEET: Receiver</title>
     <body>
+        <h1 style="text-align:center">VIDEO MEET</h1>
         <div>
             <input placeholder="Enter username..."
                     type="text"
                     id="username-input" /><br>
-            <button onclick="joinCall()">Join Call</button>
+            <button id ="joinCall" onclick="joinCall()">Join Call</button>
         </div>
         <div id="video-call-div">
             <video muted id="local-video" autoplay></video>

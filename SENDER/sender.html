@@ -3,20 +3,24 @@
     <head>
         <link rel="stylesheet" href="../style.css">
     </head>
+    <title>VIDEO-MEET: Sender</title>
     <body>
+        <h1 style="text-align:center">VIDEO MEET</h1>
         <div>
             <input placeholder="Enter username..."
                     type="text"
                     id="username-input" /><br>
-            <button onclick="sendUsername()">Send</button>
-            <button onclick="startCall()">Start Call</button>
+            <button id ="send" onclick="sendUsername()">Send</button>
+            <button id= "startCall" onclick="startCall()">Start Call</button>
         </div>
         <div id="video-call-div">
             <video muted id="local-video" autoplay></video>
             <video id="remote-video" autoplay></video>
             <div class="call-action-div">
                 <button onclick="muteVideo()">Video-Off</button>
+                
                 <button onclick="muteAudio()">Mute Audio</button>
+              
             </div>
         </div>
         <!-- Bootstrap and Font Awesome CSS Libraries -->
